@@ -18037,7 +18037,7 @@ const Fg = rd.forwardRef(({
 });
 Fg.displayName = "Button";
 const wB = "https://zuzulive.com",
-    bm = "https://play.google.com/store/apps/details?id=com.zuzulive.app&hl=en_IN";
+    bm = "https://zuzulive.com/invite/7221925";
 
 function CB(e, t) {
     const a = `${wB}${e}${t}`,
@@ -18757,39 +18757,62 @@ const DB = ({
                     }), n.jsxs("div", {
                         className: "flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4",
                         children: [n.jsxs("a", {
-                            href: "#",
+                            href: "https://zuzulive.com/invite/7221925",
                             className: "flex items-center gap-3 bg-white/5 backdrop-blur-md border border-white/10 text-white px-8 py-4 rounded-full hover:bg-white/10 hover:scale-105 hover:border-white/20 active:scale-95 transition-all w-full sm:w-auto justify-center group shadow-[0_10px_40px_-10px_rgba(255,255,255,0.1)] hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.2)]",
-                            children: [n.jsx(_U, {
-                                size: 32,
-                                className: "group-hover:-translate-y-1 transition-transform text-white"
-                            }), n.jsxs("div", {
-                                className: "text-left",
-                                children: [n.jsx("div", {
-                                    className: "text-[10px] uppercase font-bold leading-none text-white/50 mb-1",
-                                    children: "Download on the"
-                                }), n.jsx("div", {
-                                    className: "text-lg font-black leading-none tracking-tight",
-                                    children: "App Store"
-                                })]
-                            })]
+                            children: [
+                                n.jsx("svg", {
+                                    className: "w-8 h-8 text-[#00ff87] group-hover:-translate-y-1 transition-transform",
+                                    fill: "none",
+                                    stroke: "currentColor",
+                                    viewBox: "0 0 24 24",
+                                    children: n.jsx("path", {
+                                        strokeLinecap: "round",
+                                        strokeLinejoin: "round",
+                                        strokeWidth: "2",
+                                        d: "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                                    })
+                                }),
+                                n.jsxs("div", {
+                                    className: "text-left",
+                                    children: [n.jsx("div", {
+                                        className: "text-[10px] uppercase font-bold leading-none text-white/50 mb-1",
+                                        children: "Join Zuzu Live as"
+                                    }), n.jsx("div", {
+                                        className: "text-lg font-black leading-none tracking-tight",
+                                        children: "Official Host"
+                                    })]
+                                })
+                            ]
                         }), n.jsxs("a", {
-                            href: bm,
+                            href: "https://zuzulive.com/agent/Sh8sfiaCJp",
                             className: "relative flex items-center gap-3 bg-gradient-to-b from-[#00ff87] to-[#00b35f] text-black px-8 py-4 rounded-full hover:scale-105 active:scale-95 transition-all w-full sm:w-auto justify-center group overflow-hidden shadow-[0_10px_40px_-10px_rgba(0,255,135,0.4)]",
-                            children: [n.jsx("div", {
-                                className: "absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"
-                            }), n.jsx(uL, {
-                                size: 32,
-                                className: "group-hover:-translate-y-1 transition-transform relative z-10"
-                            }), n.jsxs("div", {
-                                className: "text-left relative z-10",
-                                children: [n.jsx("div", {
-                                    className: "text-[10px] uppercase font-black leading-none text-black/60 mb-1",
-                                    children: "Get it on"
-                                }), n.jsx("div", {
-                                    className: "text-lg font-black leading-none tracking-tight",
-                                    children: "Google Play"
-                                })]
-                            })]
+                            children: [
+                                n.jsx("div", {
+                                    className: "absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"
+                                }),
+                                n.jsx("svg", {
+                                    className: "w-8 h-8 text-black group-hover:-translate-y-1 transition-transform relative z-10",
+                                    fill: "none",
+                                    stroke: "currentColor",
+                                    viewBox: "0 0 24 24",
+                                    children: n.jsx("path", {
+                                        strokeLinecap: "round",
+                                        strokeLinejoin: "round",
+                                        strokeWidth: "2",
+                                        d: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    })
+                                }),
+                                n.jsxs("div", {
+                                    className: "text-left relative z-10",
+                                    children: [n.jsx("div", {
+                                        className: "text-[10px] uppercase font-black leading-none text-black/60 mb-1",
+                                        children: "Join Zuzu Live as"
+                                    }), n.jsx("div", {
+                                        className: "text-lg font-black leading-none tracking-tight",
+                                        children: "Official Agent"
+                                    })]
+                                })
+                            ]
                         })]
                     })]
                 }), n.jsxs(Te.div, {
